@@ -1,0 +1,10 @@
+https://github.com/Crystal-Instruments/CIDataFileReaderAPI
+
+This is the company's public github repo for the CI Data File Reader API (ATFX API) that I have majorly contributed during my time at the company.
+The API is simplifying the extraction of test parameters and frame data from ASAM ODS files that the company's main software, Engineering Data Management (EDM), creates for recording live noise and vibration data as signals.
+The primary coding language is C#, and some of the C# code is the ATFX API C# demo that shows other engineers of how to code with the API. There are two main project files, CI.ATFX.Reader.dll and Common.dll, that contains all API methods and variables that engineers can use to integrate to their company's software. These dll files contain code that originate from other software engineers in the company. The CI.ATFX.Reader.dll and some of Common.dll contains the contributions I made to the API.
+I have extended the ATFX API methods to have more simple method calls to get frame data, get test properties, open a recording and so on. I also improved the back end logic to make getting these data easier. 
+
+I demonstrated that the API can be used in other coding languages, such as Matlab and Python. The LabVIEW example came from another software engineer from before I contributed to the improvement of the API. The importation are handled by Matlab C# dll import method and a Python package that imports C# called, Python.NET.
+The manual was mainly created by me with peer reviews from other project managers. It contains everything needed to know from how to code with the API, description of API calls, pre knowledge of the type of data, scenarios of using the API and examples of importation to other coding languages.
+And the repo was created by me with some releases according to the company's main product release
